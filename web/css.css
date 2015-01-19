@@ -1,0 +1,172 @@
+html{
+	background-color:#a72f2d;
+	background-attachment:fixed;
+}
+
+#login {
+float:right;
+text-align:center;
+color:white;
+background-color:#c6423f;
+background-image:url('login.png');
+background-repeat:repeat-y;
+height:100%;
+width:25%;
+overflow: hidden;
+
+}
+#login a:link, a:visited {
+color:white;
+text-decoration:none;
+}
+
+header {
+width:100%;
+background-image: url('img/site/head.png');
+background-repeat:no-repeat;
+height: 145px;
+float:left;
+}
+
+#menu {
+
+text-align:center;
+overflow:hidden;
+background-color:#a72f2d;
+background-image:url('menu.png');
+background-repeat:repeat-y;
+width:18%;
+max-width:18%;
+float:left;
+min-height:100%;
+min-width: 171px;
+border-right:solid;
+clear:both;
+ }
+
+
+#menu a:link, a:visited {
+color:white;
+text-decoration:none;
+}
+
+body {
+
+ width:100%;
+ min-width:500px;
+ height:100%;
+ 
+margin:auto;
+}
+footer {
+ height: 30px;
+ clear: both;
+background-color:#c6423f;
+color:white;
+text-align:center;
+width:100%;
+
+}
+.pizze {
+width:99%;
+background-color:#a72f2d;;
+float:left;
+clear:right;
+text-align:left;
+margin:3px;
+border-left:solid #B0C4DE;
+border-bottom:solid #B0C4DE;
+overflow:hidden;
+
+}
+
+.pizze a:link, a:visited {
+color:white;
+text-decoration:none;
+}
+
+h1 {
+color:white;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size:150%;
+}
+
+h2 {
+color:white;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size:130%;
+line-height:50%;
+
+}
+h3 {
+color:white;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size:100%;
+
+}
+
+h4 {
+color:white;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size:70%;
+
+}
+
+p {
+font-size:80%;
+font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+color: white;
+}
+
+
+article {
+width:56%;
+float:left;
+overflow:hidden;
+text-align:left;
+padding:5px;
+background-color:#a72f2d;
+color:white;
+}
+
+
+#ricerca {
+ overflow:hidden;
+}
+
+aside {
+width:23%;
+float:right;
+min-height:30%;
+overflow:hidden;
+text-align:center;
+background-color:#c6423f;;
+background-position:right-top;
+background-repeat:repeat;
+padding:0px;
+}
+
+aside a:link, a:visited {
+color:white;
+text-decoration:none;
+}
+
+#content {
+	width:100%;
+	float:left;
+}
+#paginapizza{
+	text-align:left;
+}
+.prenotazione{
+	width:99%;
+
+float:left;
+clear:right;
+text-align:left;
+margin:3px;
+}
+
+#descrizionepizza{
+	padding:4px;
+}
